@@ -1,1 +1,2 @@
+"use sctrict";
 alert('text');
