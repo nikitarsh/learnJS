@@ -1,5 +1,2 @@
-"use strict" // Выполнили перенос строки с помощью кавычки: ' ` '.
-let str = `a
-b
-c`
-alert(str);
+"use strict" 
+alert('abc' * 3);// выведет NaN
