@@ -1,4 +1,5 @@
 "use strict"
-let a = 13;
-let b = 5;
-alert(a % b);
+let str = 'JS is cool';
+let str1 = 'Java';
+let str2 = 'Script';
+alert(str + ' ' + '!!!' + str1 + str2);
