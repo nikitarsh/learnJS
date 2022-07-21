@@ -1,5 +1,4 @@
 let str = 'JavaScript';
+let num = 5;
+alert(str[num]);
 
-alert(str[0]);
-alert(str[4]);
-alert(str[6]);
