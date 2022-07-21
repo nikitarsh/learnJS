@@ -1,5 +1,3 @@
-let num1 = 123;
-let num2 = 456;
-
-console.log(num1);
-console.log(num2);
+let num1 = parseInt('5px');
+let num2 = parseInt('6px');
+alert(num1 + num2);
