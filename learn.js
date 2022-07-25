@@ -1,5 +1,5 @@
-//Поиск площади круга
+//Поиск площади квадрата
 "use strict"; 
-let circle = prompt('Введите радиус круга ');
-let pi = 3.14;
-alert('Площадь круга равна: ' + pi * Math.pow(circle, 2));
+let square = prompt('Введите сторону квадрата ');
+let S = square * square;
+alert('Площадь квадрата равна: ' + S);
