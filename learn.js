@@ -1,5 +1,5 @@
-document.write('1<br>');
-document.write('2<br>');
-document.write('3<br>');
-document.write('4<br>');
-document.write('5<br>');
+//Поиск площади круга
+"use strict"; 
+let circle = prompt('Введите радиус круга ');
+let pi = 3.14;
+alert('Площадь круга равна: ' + pi * Math.pow(circle, 2));
