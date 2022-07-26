@@ -1,7 +1,7 @@
 //Массивы в JS
 "use strict"; 
 let arr = [];
-
-arr[3] = 'a';
-arr[8] = 'b';
-console.log(arr.length);
+arr.push(1);
+arr.push(2);
+arr.push(3);
+console.log(arr);
