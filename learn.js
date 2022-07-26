@@ -1,8 +1,6 @@
 //Массивы в JS
 "use strict"; 
-let arr = [];
-arr[0] = '0';
-arr[1] = '7';
-arr[2] = '0';
-arr[3] = '9';
+let arr = [1, 2, 3];
+arr[3] = '4';
+arr[4] = '5';
 console.log(arr);
