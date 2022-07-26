@@ -1,10 +1,6 @@
-//Изменение элементов объектов в JavaScript, возвели в квадрат каждый элемент объекта
+//Массив ключей объекта JS
 
 "use strict"; 
-let cars = {};
-cars.ford = 'kuga';
-cars.renault = 'duster';
-cars.audi = 'r8';
-cars.suzuki = 'liana';
-cars.opel = 'mokka';
-console.log(cars);
+let obj = {x: 1, y: 2, z: 3};
+let keys = Object.keys(obj);
+console.log(keys);
