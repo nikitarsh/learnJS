@@ -1,4 +1,19 @@
-//Объекты в JS
+/*Мы можем писать без кавычек не все ключи объектов, а только те,
+которые удовлетворяют следующим ограничениям:
+они не могут начинаться с цифры и не могут содержать внутри себя дефис,
+пробел и тому подобные вещи.*/
+
 "use strict"; 
-let date = {year: 2022, month: 'July', day: 26}
-console.log(date.day + '-' + date.month + '-' + date.year);
+let obj = {
+	'1a': 1,
+	'b2': 2,
+	'с-с': 3,
+	'd 4': 4,
+	'e5': 5
+};
+
+console.log(['obj.1a']);
+console.log(obj.b2);
+console.log(['obj.c-c']);
+console.log(['obj.d 4']);
+console.log(obj.e5);
