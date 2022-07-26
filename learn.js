@@ -1,6 +1,4 @@
-//Массивы в JS
+//Объекты в JS
 "use strict"; 
-let arr = ['a', 'b', 'c', 'd', 'e'];
-delete arr[0];
-delete arr[4];
-console.log(arr.length);
+let obj = {1: 'Понедельник', 2: 'Вторник', 3: 'Среда', 4: 'Четверг', 5: 'Пятница', 6: 'Суббота', 7:'Воскресение'};
+console.log(obj[1], obj[2], obj[3], obj[4], obj[5], obj[6], obj[7]);
