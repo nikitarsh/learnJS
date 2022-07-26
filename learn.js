@@ -1,5 +1,6 @@
-//Перевод температуры из Фаренгейт в Цельсия
+//Массивы в JS
 "use strict"; 
-let F = prompt('Введите температуру в градусах Фаренгейта °F')
-let tC = (Number((F - 32) / 1.8));
-alert('Температура в градусах цельсия равна: ' + Math.round(tC) + ' °C');
+let arr = [1, 2, 3];
+let result = arr.reduce((sum, current) => sum + current, 0);
+alert(result);
+console.log(result);
