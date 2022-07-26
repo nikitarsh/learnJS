@@ -1,4 +1,4 @@
 //Объекты в JS
 "use strict"; 
-let user = {names:'Nik', lastname:'borisov', fthname:'Nikitich'}
-console.log(user.names + ' ' + user.lastname + ' ' + user.fthname);
+let date = {year: 2022, month: 'July', day: 26}
+console.log(date.day + '-' + date.month + '-' + date.year);
