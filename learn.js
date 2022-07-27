@@ -1,13 +1,11 @@
-//Вычисляемые свойства в JavaScript
+//Условия в JavaScript
 
 "use strict"; 
-let obj = {
-	x: 1,
-	y: 2,
-	z: 3
-};
-let [key1] = 'x';
-let [key2] = 'y';
-let [key3] = 'x';
+let test1 = 'abc';
+let test2 = 'xyz';
 
-console.log(obj);
+if (test2 == test1) {
+	console.log('+++'); 
+} else {
+	console.log('---');
+}
