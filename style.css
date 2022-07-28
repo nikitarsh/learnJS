@@ -1,44 +1,26 @@
-p {
-    color: blueviolet;
-    text-align: left;
-}
-
 h1 {
-    color: #FF7400;
-    text-align: left;
+    text-align: right;
 }
 
-h3 {
-    color: #FF9640;
-    text-align: left;
+h2 {
+    text-align: center
+    ;width: 300px;
 }
 
-td {
-    width: 40px;
-    height: 30px;
-    text-align: left;
+table {
+    width: 500px
+    ;
 }
 
 th {
     text-align: left;
 }
 
-table {
-    width: 400px;
+td {
+    text-align: center;
 }
 
-
-ui {
-    text-align: left;
-}
-
-ol {
-    text-align: left;
-}
-
-a {
-    text-align: left;
-}
-li {
-    text-align: left;
+p {
+    text-align: justify;
+    width: 300px;
 }
