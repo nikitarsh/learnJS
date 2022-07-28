@@ -1,11 +1,12 @@
 //Условия в JavaScript
 
-"use strict"; 
-let test1 = 'abc';
-let test2 = 'xyz';
 
-if (test2 == test1) {
-	console.log('+++'); 
+"use strict"
+let test1 = 3;
+let test2 = 3;
+		
+if (test1 === test2) {
+	console.log('+++');
 } else {
 	console.log('---');
 }
