@@ -1,0 +1,44 @@
+p {
+    color: blueviolet;
+    text-align: left;
+}
+
+h1 {
+    color: #FF7400;
+    text-align: left;
+}
+
+h3 {
+    color: #FF9640;
+    text-align: left;
+}
+
+td {
+    width: 40px;
+    height: 30px;
+    text-align: left;
+}
+
+th {
+    text-align: left;
+}
+
+table {
+    width: 400px;
+}
+
+
+ui {
+    text-align: left;
+}
+
+ol {
+    text-align: left;
+}
+
+a {
+    text-align: left;
+}
+li {
+    text-align: left;
+}
